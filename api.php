@@ -1,4 +1,3 @@
-
 <?php
 // viloid ~ Sec7or Team
 // ide dari ArRay ( ExploreCrew - Surabaya Hacker Link )
@@ -15,4 +14,3 @@ $f = file_get_contents("https://www.google.com/search?q=".urlencode($_REQUEST['d
         }
 echo json_encode($v);
 }
-
